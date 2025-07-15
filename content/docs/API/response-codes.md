@@ -1,6 +1,6 @@
 # API Response Codes
 
-This document details the HTTP response codes you may encounter when interacting with the ChartMuseum API.
+This document details the HTTP response codes you may encounter when interacting with the API.
 
 ## Common Response Codes
 
@@ -10,7 +10,7 @@ This document details the HTTP response codes you may encounter when interacting
 | 201  | Created                                      | Chart or provenance file successfully uploaded         |
 | 400  | Bad Request                                  | Invalid request parameters, malformed data             |
 | 401  | Unauthorized                                 | Authentication required or failed                      |
-| 404  | Not Found                                    | Resource does not exist (chart, version, file, etc.)   |
+| 404  | Not Found                                    | Resource does not exist (chart, version)               |
 | 409  | Conflict                                     | Chart version already exists, overwrite not allowed    |
 | 413  | Payload Too Large                            | Uploaded file exceeds maximum allowed size             |
 | 500  | Internal Server Error                        | Unexpected server error                                |
